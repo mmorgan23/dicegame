@@ -154,7 +154,7 @@ $("#click5").click(function(){
 
 		
 		if ((win > loss)) {
-			$("#text").html("CONGRATULATIONS, YOU WON THAT GAME!");
+			$("#text").html("Round 5: You WON that one! <br> CONGRATULATIONS, YOU WON THAT GAME!");
 			
 			win = 0;
 			loss = 0;
@@ -164,7 +164,7 @@ $("#click5").click(function(){
 		}
 
 		else {
-			$("#text").html("YOU LOST THAT GAME!");
+			$("#text").html("Round 5: You loss that one - Sorry! <br> YOU LOST THAT GAME!");
 			
 			win = 0;
 			loss = 0;
@@ -185,30 +185,6 @@ $("#click5").click(function(){
 
  operation();	
 
-//$("#checkBox").click(function(){
-//	   $("#deleterow").show();
-//	   $("#deletetext2").hide();
-//	});
 
-
-
-
-
-//$('input[type="checkbox"]').click(function(){
-//	if($('#checkBox').is(':checked') && $('#checkBox2').is(':checked'))
-//	{
-//	   $("#deleterow").show();
-//	   $("#deletetext").hide();
-//	   $("#deletetext2").show();
-	  
-//	}
-
-
-
-
-
-//if (window.matchMedia("your media queries").matches) {
-    // ...
-//}
 
 });
