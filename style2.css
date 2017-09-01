@@ -1,0 +1,93 @@
+body {
+  background-color: black;
+}
+
+#container {
+  width: 1200px;  
+  height: 720px;
+  margin: 50px auto;
+  background-color: white;
+ 
+}
+
+.dices {
+  width: 100px;
+  height: auto;
+}
+
+#ranone {
+  width: 100px;
+  height: 125px;
+  border: 3px solid black;
+  margin-left: 100px;
+  position: absolute;
+  
+}
+
+#rantwo {
+  width: 100px;
+  height: 125px;
+  border: 3px solid black;
+  position: absolute;
+  margin-left: 250px;
+}
+
+#ranthree {
+  width: 100px;
+  height: 125px;
+  border: 3px solid black;
+  position: absolute;
+  margin-left: 400px;
+
+}
+
+#ranfour {
+  width: 100px;
+  height: 125px;
+  border: 3px solid black;
+  position: absolute;
+  margin-left: 550px;
+
+}
+
+#ranfive {
+  width: 100px;
+  height: 125px;
+  border: 3px solid black;
+  position: absolute;
+  float: right;
+  margin-left: 700px;
+}
+
+#fiveran {
+  margin-left: 150px;
+}
+
+#userguess {
+   border: 3px solid black;
+  width: 55px;
+  height: 55px;
+
+}
+
+#buttonclick {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+h5 {
+  margin-top: 15px;
+}
+
+#winloss{
+  margin-top: 150px;
+}
+
+#start {
+  color: white;
+  background-color: red;
+}

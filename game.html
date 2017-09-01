@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Dice Game</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="style2.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+     <script type="text/javascript" src="script2.js"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <div id="container">
+      <br>
+      <center><h1><strong>Do you have what it takes to roll?</strong></h1></center>
+      <center><h4>You only have 5 guesses to win!</h4></center>
+      <br>
+      <center><button id="start">Start Game</button></center>
+      <hr>
+
+<center><p id="text">Click the Dice to roll!</p></center>
+<br>
+
+<!--users roll displayed here-->
+      <center><div id= "userguess"><h5 id="roll"></h5></div></center>
+
+
+<!--button click here-->
+
+      <div id="buttonclick">
+        
+        <center><button id="click1"><img alt="dices" src="images2/dices.jpg" class="dices"></button></center>
+
+        <center><button id="click2"><img alt="dices" src="images2/dices.jpg" class="dices"></button></center>
+
+        <center><button id="click3"><img alt="dices" src="images2/dices.jpg" class="dices"></button></center>
+
+        <center><button id="click4"><img alt="dices" src="images2/dices.jpg" class="dices"></button></center>
+
+        <center><button id="click5"><img alt="dices" src="images2/dices.jpg" class="dices"></button></center>
+
+      </div>
+<!--random numbers dislplayed here in this div -->
+      <div id="fiveran">
+        <div id="ranone"><center><h3 id="rannum1"></h3></center></div>
+        <div id="rantwo"><center><h3 id="rannum2"></h3></center></div>
+        <div id="ranthree"><center><h3 id="rannum3"></h3></center></div>
+        <div id="ranfour"><center><h3 id="rannum4"></h3></center></div>
+        <div id="ranfive"><center><h3 id="rannum5"></h3></center></div>
+      </div>
+
+
+
+
+
+<!--win vs. loss here-->
+<br>
+      <center><div id="winloss">
+      <!--  <h5 id="Win">WINS: 0</h5>
+        <h5 id="Loss">LOSS: 0</h5>-->
+        <br>
+        <br>
+
+
+      </div></center>
+
+    </div>
+
+  </body>
+
+  </html>
