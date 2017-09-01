@@ -71,7 +71,7 @@ $("#start").click(function(){
  		$("#click2").hide();
  		$("#click3").show();
 
- 		if ((guess2 == randomNumber1)) {
+ 		if ((guess2 == randomNumber2)) {
  		win ++;
  		$("#Win").html("WINS: " + win);
         $("#text").html("Round 2: You WON that one. 3 More Guesses Left!");
@@ -93,7 +93,7 @@ $("#start").click(function(){
  		$("#click3").hide();
  		$("#click4").show();
 
- 		if ((guess3 == randomNumber1)) {
+ 		if ((guess3 == randomNumber3)) {
  		win ++;
  		$("#Win").html("WINS: " + win);
         $("#text").html("Round 3: You WON that one. 2 More Guesses Left!");
@@ -116,7 +116,7 @@ $("#click4").click(function(){
  		$("#click4").hide();
  		$("#click5").show();
 
- 		if ((guess4 == randomNumber1)) {
+ 		if ((guess4 == randomNumber4)) {
  		win ++;
  		$("#Win").html("WINS: " + win);
         $("#text").html("Round 4: You WON that one. 1 More Guesses Left!");
@@ -139,7 +139,7 @@ $("#click5").click(function(){
  		$("#click1").show();
  		
 
- 		if ((guess5 == randomNumber1)) {
+ 		if ((guess5 == randomNumber5)) {
  		win ++;
  		$("#Win").html("WINS: " + win);
        
